@@ -44,9 +44,10 @@ public class Main {
 		double xSpeed = Double.parseDouble(ballData[3]);
 		double ySpeed = Double.parseDouble(ballData[4]);
     	// int moveTo = Integer.parseInt(sc.nextLine());
+		
 		String moveTo = "0";
 		if (xSpeed < 0) {
-			moveTo = "0";
+			moveTo = "-6";
 		} else {
 			if (ySpeed <= 0.1 && ySpeed >= -0.1) {
 				moveTo = "0";
